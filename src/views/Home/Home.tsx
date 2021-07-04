@@ -11,7 +11,7 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/vegan/vegan-3.svg');
+  
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,7 +23,7 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/vegan/vegan-3.svg'), url('/images/vegan/vegan-2.svg');
+  
     background-size: contain;
     background-position: left center, right center;
     height: 165px;
@@ -72,16 +72,16 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <StyledHeading as="h1" size="xl" mb="24px" color="primary">
-          {TranslateString(576, 'Vegan Finance')}
+          {TranslateString(576, 'B3Swap')}
         </StyledHeading>
         <Text>{TranslateString(578, 'The most natural and healthy DEFI app on Binance Smart Chain')}</Text>
       </Hero>
       <div>
         <Cards>
-          <FarmStakingCard />
+          
           <TwitterCard />
-          <CakeStats />
-          <TotalValueLockedCard />
+          
+          
         </Cards>
       </div>
     </Page>

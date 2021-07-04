@@ -13,7 +13,10 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     background-color: ${({ theme }) => theme.colors.background};
-
+    ::-webkit-scrollbar-thumb {
+    background: #0e0e0e;
+    border-radius: 8px;
+}
     img {
       height: auto;
       max-width: 100%;

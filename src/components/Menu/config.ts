@@ -6,30 +6,30 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: '/',
   },
-  {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    items: [
-      {
-        label: 'Exchange',
-        href: 'https://exchange.veganswap.finance/',
-      },
-      {
-        label: 'Liquidity',
-        href: 'https://exchange.veganswap.finance/#/pool',
-      },
-    ],
-  },
-  {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: '/farms',
-  },
-  {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: '/pools',
-  },
+  //{
+  //  label: 'Trade',
+  //  icon: 'TradeIcon',
+  //  items: [
+  //    {
+  //      label: 'Exchange',
+  //      href: 'https://exchange.veganswap.finance/',
+  //    },
+  //    {
+  //      label: 'Liquidity',
+  //      href: 'https://exchange.veganswap.finance/#/pool',
+  //    },
+ //   ],
+  //},
+  //{
+  //  label: 'Farms',
+  //  icon: 'FarmIcon',
+  //  href: '/farms',
+  //},
+  //{
+  //  label: 'Pools',
+  //  icon: 'PoolIcon',
+  //  href: '/pools',
+  //},
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
@@ -45,60 +45,60 @@ const config: MenuEntry[] = [
   //   icon: 'NftIcon',
   //   href: '/nft',
   // },
-  {
-    label: 'Price Chart',
-    icon: 'ChartIcon',
-    href: '/chart',
-  },
-  {
-    label: 'Audits',
-    icon: 'AuditIcon',
-    items: [
-      {
-        label: 'Techrate',
-        href: 'https://veganswap.finance/files/techrateAudit.pdf',
-      },
-    ],
-  },
-  {
-    label: 'Our Partners',
-    icon: 'GroupsIcon',
-    items: [
-      {
-        label: 'Whirl Finance',
-        href: 'https://www.whirl-finance.com/',
-      },
-      {
-        label: 'FlashX Ultra',
-        href: 'https://www.flashxcoinofficial.com/'
-      }
-    ],
-  },
-  {
-    label: 'Listings',
-    icon: 'ListingIcon',
-    items: [
-      {
-        label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/vegan-swap',
-      },
-      {
-        label: 'Blockfolio',
-        href: 'https://blockfolio.com/coin/VEGAN',
-      },
-    ],
-  },
+ // {
+  //  label: 'Price Chart',
+  //  icon: 'ChartIcon',
+  //  href: '/chart',
+  //},
+ // {
+  //  label: 'Audits',
+  //  icon: 'AuditIcon',
+  //  items: [
+  //    {
+  //      label: 'Techrate',
+ //       href: 'https://veganswap.finance/files/techrateAudit.pdf',
+  //    },
+  //  ],
+  //},
+  //{
+ //   label: 'Our Partners',
+  //  icon: 'GroupsIcon',
+  //  items: [
+  //    {
+  //      label: 'Whirl Finance',
+  //      href: 'https://www.whirl-finance.com/',
+ //     },
+  //    {
+  //      label: 'FlashX Ultra',
+  //      href: 'https://www.flashxcoinofficial.com/'
+  //    }
+ //   ],
+  //},
+  //{
+  //  label: 'Listings',
+  //  icon: 'ListingIcon',
+  //  items: [
+ //     {
+  //      label: 'DappRadar',
+  //      href: 'https://dappradar.com/binance-smart-chain/defi/vegan-swap',
+  //    },
+  //    {
+ //       label: 'Blockfolio',
+  //      href: 'https://blockfolio.com/coin/VEGAN',
+  //    },
+  //  ],
+  //},
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
         label: 'Roadmap',
-        href: 'https://vegandefi.medium.com/vegan-swap-roadmap-94d69f7653b',
+        href: 'https://b3swap.medium.com/',
       },
       {
         label: 'Overview',
-        href: 'https://pancakeswap.info/token/0x901e58695306b5c33c5169334e921a4cf4841571',
+        href: 'https://bscscan.com/address/0x4cee21c9e3ae69e51c213ab273bd9d1e45fbe5e4#code',
       },
       // {
       //   label: 'CoinGecko',
@@ -120,7 +120,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/veganswap-defi/',
+        href: 'https://github.com/b3swap/',
       },
       // {
       //   label: 'Docs',
@@ -128,7 +128,7 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Blog',
-        href: 'https://vegandefi.medium.com/',
+        href: 'https://b3swap.medium.com/',
       },
     ],
   },
